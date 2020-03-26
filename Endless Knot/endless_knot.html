@@ -1,1 +1,242 @@
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <head>
+            <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="endless_knot.css"/>
+            <link href="https://fonts.googleapis.com/css?family=Advent+Pro:300,400&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    
+            <title>Endless Knot</title>
+    
+            <!-- Script bootstrap-->
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        </head>
+    </head>
+    <body>
+        <header></header>
+        <div class="container" id="navbar">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="#proj_goal" title="project goal">PROJECT GOAL</a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#bg_info" title="Background Information">BACKGROUND INFO</a>
+                </div>
+                <div class="col-sm-3">
+                        <a href="#process" title="Process">PROCESS</a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#reflection" title="Reflection">REFLECTION</a>    
+                </div>
+            </div>
+        </div>
+        <main>
+            <article id="proj_goal">
+                <div class="container">
+                    <h2>Project Goal</h2>
+                    <div id="projectgoal">
+                        <p>
+                            For this project, I wanted to use code to make something simple, yet meaningful to me. 
+                            This creative computation project uses python to create an endless knot, which is 
+                            one of the 8 symbols of Buddhism.   
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article id="bg_info">
+                <div class="container">
+                    <h2>Background Info </h2>
+                    <div id="background_info">
+                        <p>
+                            I recently bought a book, 
+                            <a href="https://www.amazon.com/There-No-Suffering-Commentary-Heart/dp/1556433859" target="_blank" alt="Link to the book" rel="noopener"><i>There Is No Suffering: A Commentary on the Heart Sutra</i></a>, 
+                            by Master Sheng Yen and one of the concepts I’ve learned from the book is “Form is emptiness and emptiness is form” (色即是空，空即是色). 
+                        </p>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/IMG_8319_Original.JPG?raw=true" title="Form is emptiness, emptiness is form" width="550" height="650">
+                            <p class="caption">
+                                Using Adobe Fresco, I rewrote "色即是空，空即是色" in my best calligraphy writing :)
+                            </p>
+                        </div>
+                        <p>
+                            Although it took me a while to understand this phrase, it inspired me to code one of the 
+                            symbols of Buddhism using python. The endless knot seems to have no beginning and no end. 
+                            The knot can represent many things, and to me, one of the biggest meanings from the loop 
+                            is that it represents the interconnectedness of all things. 
+                        </p>
+                        <p>
+                            “Form is emptiness and emptiness 
+                            is form”: form is emptiness because it lacks independence– it is always changing and doesn’t 
+                            have anything internal/permanent about it. That is why there is the interconnectedness of all 
+                            things. Nothing in this world is independent of any other things. If it was true that an object 
+                            can be independent of existence, then it wouldn’t be able to interact with other things, and 
+                            we wouldn’t know of its existence. Hence, form is emptiness because it isn’t internal, is 
+                            impermanent, and is dependent on conditions. Additionally, emptiness is form. Since form lacks 
+                            any independence, it allows any form to be established from dependent-arising. Connecting the 
+                            saying about form and emptiness to the endless knot, I decided to code the endless knot using python. 
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article id="process">
+                <div class="container">
+                    
+                    <div id="process_info">
+                        <h2>Process</h2>
+                        <p>
+                            Initially, I had another set of code for the endless knot, but because it was not centered, I recoded the whole project. 
+                        </p>
+                        <p>
+                            For the first attempt, I grabbed a scratch paper to draw out a coordinate plane. I roughly planned out where to draw 
+                            my borders. After coding the first border, I repeated the same steps and drew two more borders outside my first border, 
+                            increasing in size every time.
+                        </p>
+                        <div class="pics">
+                                <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/process_1.jpg?raw=true" title="sketches" width="450" height="550">
+                                <p class="caption">
+                                    My attempt in graphing this on paper before coding
+                                </p>
+                            </div>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/endless_knot_s1.png?raw=true" title="Borders" width="500" height="500">
+                            <p class="caption">
+                                The borders
+                            </p>
+                        </div>
+                        <p>
+                            After the borders were complete, I started to plan out the designs on each corner.
+                        </p>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/process_2.jpg?raw=true" title="sketches" width="450" height="550">
+                            <p class="caption">
+                                Sketches of trying to find a design to use
+                            </p>
+                        </div>
+                        <p>
+                            I looked up some designs on google images to see which ones were doable, and it gave me ideas on how I should make my corner designs. 
+                            First, throughout trial and error, I coded the design on the bottom left corner. Copying the same code but switching 
+                            the directions and changing the x-axis and y-axis positions, I repeated the steps for the bottom-right, upper-left and 
+                            upper-right corners.    
+                        </p>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/endless_knot_s2.png?raw=true" title="Border designs" width="500" height="500">
+                            <p class="caption">
+                                The border designs
+                            </p>
+                        </div>
+                        <p>
+                            With the corner designs complete, I moved onto coding the biggest challenge: the endless knot. No doubt, there are 
+                            many different approaches on how to first do this. I decided to code the “boxes” first, then lastly 
+                            code the right angles being intertwined into each other. 
+                        </p>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/endless_knot_s3.png?raw=true" title="Boxes for endless knot" width="500" height="500">
+                            <p class="caption">
+                                The boxes for the endless knot
+                            </p>
+                        </div>
+                        <p>
+                            This process took a lot of time because sometimes, some pieces of the knot varied in “thickness” and it took a lot 
+                            of time to “trim” and “add” thickness. After completing the knot, I asked a lot of my friends by sending screenshots 
+                            to them to confirm if it was okay-to-go, but they made me realize it was uncentered...unfortunately! Realizing that 
+                            it would be more of a pain to fix the code piece by piece versus just remaking the whole thing was easier, I decided 
+                            to redo the project. Here is a screenshot of the first attempt:
+                        </p>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/endless_knot_s4.png?raw=true" title="First attempt" width="500" height="500">
+                            <p class="caption">
+                                First attempt at making the endless knot
+                            </p>
+                        </div>
+                        <p>
+                            For my second and final attempt, since I was now a “pro” at doing this (just kidding), it was a lot faster and took me less time to complete.
+                        </p>
+                        <p>
+                            Firstly, I coded the borders again, but this time, using the handy-dandy scratch paper, I drew a coordinate plane again, 
+                            and made sure to use constant values marks (0, 30, 60…). After making sure my borders were actually centered and good to 
+                            go on the screen, I moved on to working on the corner designs. Essentially, I just copied the code from the previous code 
+                            to the new code. With some editing of the length and x-axis/y-axis position, I fixed it in no time. 
+                        </p>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/process_3.jpg?raw=true" title="Draft of the coordinate plane" width="450" height="550">
+                            <p class="caption">
+                                Redoing my coordinate plane and figuring out how to center the center piece
+                            </p>
+                        </div>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/endless_knot_n1.png?raw=true" title="New Endless knot attempt: the borders" width="500" height="500">
+                            <p class="caption">
+                                Borders for the new code
+                            </p>
+                        </div>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/endless_knot_n2.png?raw=true" title="New Endless knot attempt: the designs" width="500" height="500">
+                            <p class="caption">
+                                Designs on the corners
+                            </p>
+                        </div>
+                        <p>
+                            Secondly, with the borders and corner designs finished and centered, I decided to code the lines to mimic a coordinate 
+                            graph, so that way, I won’t have to worry about the center-piece being uncentered.
+                        </p>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/endless_knot_n3.png?raw=true" title="New Endless knot attempt: lines for a graph" width="500" height="500">
+                            <p class="caption">
+                                I coded lines to mimic a graph, with the blue lines acting like the x and y axis.
+                            </p>
+                        </div>
+                        <p>
+                            Thirdly, using the graph as a tool to align my sections to the knot, I started to code the knot. I coded the boxes 
+                            accordingly, then when all of the boxes seemed good to go, I started to code the rest of the knot: the right angles. 
+                        </p>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/endless_knot_n4.png?raw=true" title="New Endless knot attempt: the boxes" width="500" height="500">
+                            <p class="caption">
+                                The boxes for the endless knot
+                            </p>
+                        </div>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/endless_knot_n5.png?raw=true" title="New Endless knot attempt: the angles of the knot" width="500" height="500">
+                            <p class="caption">
+                                The angles for the endless knot
+                            </p>
+                        </div>
+                        <p>
+                            Lastly, I commented out the grid lines. Finally, my knot was centered, I have completed the code! :) 
+                        </p>
+                        <div class="pics">
+                            <img src="https://github.com/anncong/portfolio/blob/master/Endless%20Knot/endless_knot_n6.png?raw=true" title="New Endless knot attempt: Endless knot without the graph lines" width="500" height="500">
+                            <p class="caption">
+                                Endless knot without the graphic lines
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="reflection">
+                <div class="container">
+                    <h2>Reflection</h2>
+                    <div id="reflection_info">
+                        <p>
+                            This was my first time making art with python and although it was frustrating at first, it did get some time to get used to. 
+                            With two tries, I’ve created what I had in mind: an Endless Knot. Next time, I would just start with coding the coordinate 
+                            graph to make everything easier for myself, so I don’t have to worry about the graphics being uncentered.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <h1>Thank you for reading! :)</h1>
+            <footer>
+                <small>Copyright Annmarie Cong &copy; 2020</small>
+            </footer>
+        </main>
+    </body>
+</html>
