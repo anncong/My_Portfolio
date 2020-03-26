@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color:whitesmoke;
+}
+.container{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #F2CA80;
+    text-align: center;
+}
+#navbar a {
+    display: inline-block;
+    font-size: 20px;
+    color:#302525;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    font-weight: 900;
+    border-radius: 2px;
+}
+.rotate-180 {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+#portrait{
+    padding-top: 3%;
+    padding-bottom: 20%;
+    text-align: center;
+}
+#portrait img {
+    border-radius: 5px;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+#logo{
+    padding-top: 15px;
+}
+.header {
+    background-image: url(bg_bokeh.jpg);
+    background-size: 100%;
+    background-position-y: 0%;
+    font-size: 2em;
+    color: whitesmoke;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100vh;
+}
+.header h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    color: #302525;
+}
+#arr{
+    padding-top: 7%;
+    text-align: center;
+    font-size: 30px;
+    color: #382621;
+}
+main{
+    line-height: 30px;
+}
+article .container .col-sm-4 figure {
+    text-align: center;
+}
+h2 {
+    padding-top: 5.5%;
+    padding-bottom: 5.5%;
+    font-size: 55px;
+}
+.sub_h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+#img_mj, #img_ek{
+   -webkit-transform: scale(.5);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+figure:hover #img_mj,  figure:hover #img_ek{
+    -webkit-transform: scale(0);
+    transform: scale(1.08);
+} 
+.span1:hover {
+    color: #3887A6;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.descrip{
+    padding: 15px;
+}
+.descrip_text{
+    border-radius: 40px;
+    border: 1px solid black;
+    padding: 3%;
+}
+.span2:hover {
+    color: #BF3467;
+    font-weight: 900;
+    text-decoration: underline;
+}
+footer div {
+    text-align: center;
+}
+/* #proj1, #proj2{
+    border: 1px solid black;
+} */
