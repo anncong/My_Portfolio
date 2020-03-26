@@ -13,19 +13,21 @@ body{
     position: sticky;
     top: 0;
     overflow: hidden;
-    background-color: #F2CA80;
+    background-color: #1F261E;
     text-align: center;
 }
 #navbar a {
     display: inline-block;
     font-size: 20px;
-    color:#302525;
+    color: whitesmoke;
     text-align: center;
     padding: 5px;
     text-decoration: none;
 }
 #navbar a:hover {
     font-weight: 900;
+    color:#CEF2EF;
+    text-decoration: underline;
     border-radius: 2px;
 }
 .rotate-180 {
@@ -49,7 +51,8 @@ body{
     padding-top: 15px;
 }
 .header {
-    background-image: url(https://raw.githubusercontent.com/anncong/Portfolio/master/home/bg_bokeh.jpg);
+    /* background-image: url(https://raw.githubusercontent.com/anncong/Portfolio/master/home/bg_bokeh.jpg); */
+    background-image: linear-gradient(#354034, #838C81);
     background-size: 100%;
     background-position-y: 0%;
     font-size: 2em;
@@ -63,13 +66,13 @@ body{
     text-align: center;
     padding-bottom: 5%;
     padding-top: 2%;
-    color: #302525;
+    color: whitesmoke;
 }
 #arr{
-    padding-top: 7%;
+    padding-top: 11%;
     text-align: center;
-    font-size: 30px;
-    color: #382621;
+    font-size: 40px;
+    color: whitesmoke;
 }
 main{
     line-height: 30px;
