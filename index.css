@@ -147,6 +147,9 @@ h3{
     padding-bottom: 2%;
     text-align: center;
 }
+#connect i{
+    padding: 1%;
+}
 #connect i:hover {
     opacity: .7;
 }
