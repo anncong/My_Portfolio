@@ -129,39 +129,22 @@ h3 {
 #allscreens {
     text-align: center;
 }
-#btn_info {
+#hifi_proto {
     text-align: center;
     padding-bottom: 2%;
 }
-.btn {
-    background-color: #7AB5B5;
+button{
+    /* background-color: rgb(178, 218, 218); */
+    background-color:whitesmoke;
     color: #28383B;
     border: 1px solid #28383B;
     border-radius: 5px;
-    width: 400px;
-    height: 50px;
-    font-size: 1.5em;
-}
-.linkbtn {
-    background-color: rgb(178, 218, 218);
-    color: #28383B;
-    border: 1px solid #28383B;
-    border-radius: 5px;
-    width: 200px;
-    height: 50px;
     font-size: 1em;
+    font-weight: 900;
 }
-.superlongbtn:hover, .linkbtn:hover, .btn:hover {
-    background-color: rgb(202, 236, 250);
-}
-.superlongbtn {
-    background-color: rgb(178, 218, 218);
-    color: #28383B;
-    border: 1px solid #28383B;
-    border-radius: 5px;
-    width: 300px;
-    height: 50px;
-    font-size: 1em;
+button:hover{
+    background-color: rgb(83, 83, 83);
+    color: white;
 }
 #redesign_scr {
     text-align: center;
