@@ -3,7 +3,7 @@ html {
 }
 body{
     font-family: 'Raleway', sans-serif;
-    background-color:whitesmoke;
+    background-color:rgb(255, 252, 247);;
     font-size: 18px;
 }
 .topnav {
@@ -87,7 +87,7 @@ body{
     font-size: 5vw;
     text-align: center;
     padding-top: 1%;
-    color: whitesmoke;
+    color: rgb(255, 255, 255)17, 217);
 }
 main{
     line-height: 30px;
@@ -111,14 +111,16 @@ h3{
     font-weight: 900;
     text-decoration: underline;
 }
-#img_mj:hover, #img_ek:hover{
+.proj img:hover{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+    box-shadow: 3px 3px 4px rgb(128, 128, 128);
 }
-#img_mj, #img_ek{
+.proj img {
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border: .9px solid rgba(128, 128, 128, 0.413);
 }
 .descrip{
     padding: 15px;
@@ -137,6 +139,10 @@ h3{
 }
 .proj {
     padding-bottom: 3%;
+}
+.project_child{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #contact_h3 {
     font-size: 35px;
@@ -158,6 +164,6 @@ h3{
     background-image: linear-gradient(#302525,#937B79);
     color: whitesmoke;
 }
-footer div {
-    text-align: center;
+footer {
+    text-indent: 20px;
 }
